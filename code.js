@@ -58,7 +58,7 @@ function permutationSort(a) {
 }
 
 // Example usage
-const inputArray = [3, 2, 1,3,4];
+const inputArray = [3, 2, 1, 4];
 const permutationCount = permutationSort(inputArray);
 console.log(`Sorted array: ${inputArray}`);
 console.log(`Number of permutations checked until a sorted one is found: ${permutationCount}`);
